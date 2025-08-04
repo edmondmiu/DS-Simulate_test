@@ -1,0 +1,40 @@
+{
+  "fontSizes": {
+    "tiny": {
+      "$type": "fontSize",
+      "$value": "{fontSize.0}"
+    },
+    "small": {
+      "$type": "fontSize",
+      "$value": "{fontSize.1}"
+    },
+    "md": {
+      "$type": "fontSize",
+      "$value": "{fontSize.2}"
+    },
+    "default": {
+      "$type": "fontSize",
+      "$value": "{fontSize.3}"
+    },
+    "lg": {
+      "$type": "fontSize",
+      "$value": "{fontSize.4}"
+    },
+    "xl": {
+      "$type": "fontSize",
+      "$value": "{fontSize.5}"
+    },
+    "xxl": {
+      "$type": "fontSize",
+      "$value": "{fontSize.6}"
+    },
+    "3xl": {
+      "$type": "fontSize",
+      "$value": "{fontSize.7}"
+    },
+    "4xl": {
+      "$type": "fontSize",
+      "$value": "{fontSize.8}"
+    }
+  }
+}

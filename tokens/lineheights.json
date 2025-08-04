@@ -1,0 +1,44 @@
+{
+  "lineHeights": {
+    "0": {
+      "$type": "lineHeight",
+      "$value": "110%"
+    },
+    "1": {
+      "$type": "lineHeight",
+      "$value": "100%"
+    },
+    "2": {
+      "$type": "lineHeight",
+      "$value": "115%"
+    },
+    "Auto": {
+      "$type": "lineHeight",
+      "$value": "AUTO"
+    },
+    "heading": {
+      "default": {
+        "$type": "lineHeight",
+        "$value": "110%"
+      },
+      "tight": {
+        "$type": "lineHeight",
+        "$value": "100%"
+      }
+    },
+    "body": {
+      "default": {
+        "$type": "lineHeight",
+        "$value": "115%"
+      },
+      "tight": {
+        "$type": "lineHeight",
+        "$value": "100%"
+      },
+      "content": {
+        "$type": "lineHeight",
+        "$value": "120%"
+      }
+    }
+  }
+}

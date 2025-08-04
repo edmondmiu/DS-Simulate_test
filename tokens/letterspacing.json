@@ -1,0 +1,28 @@
+{
+  "letterSpacing": {
+    "0": {
+      "$type": "letterSpacing",
+      "$value": "0%"
+    },
+    "1": {
+      "$type": "letterSpacing",
+      "$value": "-2%"
+    },
+    "default": {
+      "$type": "letterSpacing",
+      "$value": "-2%"
+    },
+    "increased": {
+      "$type": "letterSpacing",
+      "$value": "150%"
+    },
+    "decreased": {
+      "$type": "letterSpacing",
+      "$value": "-5%"
+    },
+    "normal": {
+      "$type": "letterSpacing",
+      "$value": "0%"
+    }
+  }
+}

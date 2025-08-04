@@ -1,0 +1,16 @@
+{
+  "paragraphSpacing": {
+    "0": {
+      "$type": "paragraphSpacing",
+      "$value": "0"
+    },
+    "h1": {
+      "$type": "paragraphSpacing",
+      "$value": "32"
+    },
+    "h2": {
+      "$type": "paragraphSpacing",
+      "$value": "26"
+    }
+  }
+}

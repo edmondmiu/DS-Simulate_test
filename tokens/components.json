@@ -1,0 +1,30 @@
+{
+  "button": {
+    "CTA": {
+      "hover": {
+        "border": {
+          "$type": "color",
+          "$value": "{primary.0500}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{accent.0400}"
+        },
+        "label": {
+          "$type": "color",
+          "$value": "#"
+        }
+      }
+    }
+  },
+  "FontFamily": {
+    "heading": {
+      "$type": "fontFamily",
+      "$value": "{fontFamilies.Roboto}"
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": "{fontFamilies.Roboto}"
+    }
+  }
+}

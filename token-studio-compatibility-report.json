@@ -1,0 +1,1134 @@
+{
+  "timestamp": "2025-08-04T10:35:35.474Z",
+  "summary": {
+    "passed": 8,
+    "failed": 8,
+    "warnings": 1,
+    "totalTests": 16
+  },
+  "compatibility": {
+    "fileStructure": false,
+    "metadataFormat": false,
+    "themeConfiguration": false,
+    "tokenSyntax": false,
+    "referenceResolution": false,
+    "importExportRoundtrip": false
+  },
+  "details": [
+    {
+      "timestamp": "2025-08-04T10:35:35.454Z",
+      "type": "info",
+      "message": "🔍 Verifying Token Studio file structure..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.456Z",
+      "type": "success",
+      "message": "All required Token Studio files present"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.456Z",
+      "type": "success",
+      "message": "File Structure: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.456Z",
+      "type": "info",
+      "message": "🔍 Verifying $metadata.json format..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.457Z",
+      "type": "warning",
+      "message": "Token set order differs from Token Studio reference. Current: [components, core, font-family, global, simulate], Reference: [Content Typography, components, core, global, simulate]"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.457Z",
+      "type": "success",
+      "message": "$metadata.json format is valid"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.457Z",
+      "type": "success",
+      "message": "Metadata Format: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.458Z",
+      "type": "info",
+      "message": "🔍 Verifying $themes.json configuration..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.459Z",
+      "type": "info",
+      "message": "Theme \"Base\" has 304 Figma style references"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.459Z",
+      "type": "success",
+      "message": "Found 2 valid theme(s) in $themes.json"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.459Z",
+      "type": "success",
+      "message": "Theme Configuration: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.459Z",
+      "type": "info",
+      "message": "🔍 Verifying token syntax in individual files..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token components:button.CTA.hover.border contains reference: {primary.0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token components:button.CTA.hover.surface contains reference: {accent.0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token components:FontFamily.heading contains reference: {fontFamilies.Roboto}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token components:FontFamily.body contains reference: {fontFamilies.Roboto}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:appBackground.appBackground contains reference: {Color Ramp.Black.Black 000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:appBackground.gradient.000 contains reference: linear-gradient(90deg, rgba({appBackground.appBackground}, 0) 80%, rgba({appBackground.appBackground}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.1000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.1100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.1200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.1300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0400 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0500 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0600 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.460Z",
+      "type": "info",
+      "message": "Token simulate:surface.0700 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:surface.0800 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:surface.0900 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.1000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.1100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.1200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.1300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0400 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0500 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0600 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0700 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0800 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:content.0900 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.1000 contains reference: {Color Ramp.Amber.Amber 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.1100 contains reference: {Color Ramp.Amber.Amber 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.1200 contains reference: {Color Ramp.Amber.Amber 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.1300 contains reference: {Color Ramp.Amber.Amber 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0000 contains reference: {Color Ramp.Amber.Amber 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0100 contains reference: {Color Ramp.Amber.Amber 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0200 contains reference: {Color Ramp.Amber.Amber 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0300 contains reference: {Color Ramp.Amber.Amber 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0400 contains reference: {Color Ramp.Amber.Amber 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0500 contains reference: {Color Ramp.Amber.Amber 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0600 contains reference: {Color Ramp.Amber.Amber 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0700 contains reference: {Color Ramp.Amber.Amber 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0800 contains reference: {Color Ramp.Amber.Amber 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:primary.0900 contains reference: {Color Ramp.Amber.Amber 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.1000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.1100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.1200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.1300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0000 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0100 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0200 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0300 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0400 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0500 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0600 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0700 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0800 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.461Z",
+      "type": "info",
+      "message": "Token simulate:secondary.0900 contains reference: {Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token borderradius-maincategory-menu:borderRadius-MainCategory-Menu.lg contains reference: {borderRadius.lg}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.1000 contains reference: {Color Ramp.Red.Red 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.1100 contains reference: {Color Ramp.Red.Red 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.1200 contains reference: {Color Ramp.Red.Red 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.1300 contains reference: {Color Ramp.Red.Red 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0000 contains reference: {Color Ramp.Red.Red 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0100 contains reference: {Color Ramp.Red.Red 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0200 contains reference: {Color Ramp.Red.Red 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0300 contains reference: {Color Ramp.Red.Red 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0400 contains reference: {Color Ramp.Red.Red 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0500 contains reference: {Color Ramp.Red.Red 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0600 contains reference: {Color Ramp.Red.Red 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0700 contains reference: {Color Ramp.Red.Red 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0800 contains reference: {Color Ramp.Red.Red 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token error:error.0900 contains reference: {Color Ramp.Red.Red 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.1000 contains reference: {Color Ramp.Green.Green 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.1100 contains reference: {Color Ramp.Green.Green 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.1200 contains reference: {Color Ramp.Green.Green 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.1300 contains reference: {Color Ramp.Green.Green 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0000 contains reference: {Color Ramp.Green.Green 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0100 contains reference: {Color Ramp.Green.Green 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0200 contains reference: {Color Ramp.Green.Green 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0300 contains reference: {Color Ramp.Green.Green 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0400 contains reference: {Color Ramp.Green.Green 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0500 contains reference: {Color Ramp.Green.Green 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0600 contains reference: {Color Ramp.Green.Green 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0700 contains reference: {Color Ramp.Green.Green 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0800 contains reference: {Color Ramp.Green.Green 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.462Z",
+      "type": "info",
+      "message": "Token success:success.0900 contains reference: {Color Ramp.Green.Green 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.1000 contains reference: {Color Ramp.Royal Blue.Royal Blue 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.1100 contains reference: {Color Ramp.Royal Blue.Royal Blue 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.1200 contains reference: {Color Ramp.Royal Blue.Royal Blue 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.1300 contains reference: {Color Ramp.Royal Blue.Royal Blue 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0000 contains reference: {Color Ramp.Royal Blue.Royal Blue 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0100 contains reference: {Color Ramp.Royal Blue.Royal Blue 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0200 contains reference: {Color Ramp.Royal Blue.Royal Blue 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0300 contains reference: {Color Ramp.Royal Blue.Royal Blue 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0400 contains reference: {Color Ramp.Royal Blue.Royal Blue 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0500 contains reference: {Color Ramp.Royal Blue.Royal Blue 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0600 contains reference: {Color Ramp.Royal Blue.Royal Blue 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0700 contains reference: {Color Ramp.Royal Blue.Royal Blue 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0800 contains reference: {Color Ramp.Royal Blue.Royal Blue 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token info:info.0900 contains reference: {Color Ramp.Royal Blue.Royal Blue 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.1000 contains reference: {Color Ramp.Yellow.Yellow 1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.1100 contains reference: {Color Ramp.Yellow.Yellow 1100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.1200 contains reference: {Color Ramp.Yellow.Yellow 1200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.1300 contains reference: {Color Ramp.Yellow.Yellow 1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0100 contains reference: {Color Ramp.Yellow.Yellow 0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0200 contains reference: {Color Ramp.Yellow.Yellow 0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0300 contains reference: {Color Ramp.Yellow.Yellow 0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0400 contains reference: {Color Ramp.Yellow.Yellow 0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0500 contains reference: {Color Ramp.Yellow.Yellow 0500}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0600 contains reference: {Color Ramp.Yellow.Yellow 0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0700 contains reference: {Color Ramp.Yellow.Yellow 0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0800 contains reference: {Color Ramp.Yellow.Yellow 0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0900 contains reference: {Color Ramp.Yellow.Yellow 0900}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token accent:accent.0000 contains reference: {Color Ramp.Yellow.Yellow 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.463Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.0 contains reference: roundTo({fontVariables.fontSizeBaseline}*0.625,0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.1 contains reference: roundTo({fontVariables.fontSizeBaseline}*0.75,0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.2 contains reference: roundTo({fontVariables.fontSizeBaseline}*0.875,0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.3 contains reference: roundTo({fontVariables.fontSizeBaseline}*1,0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.4 contains reference: roundTo({fontVariables.fontSizeBaseline}*1.125,0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.5 contains reference: roundTo({fontVariables.fontSizeBaseline}*1.4 , 0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.6 contains reference: roundTo({fontVariables.fontSizeBaseline}*1.5 , 0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.7 contains reference: roundTo({fontVariables.fontSizeBaseline}*2.125 , 0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsize:fontSize.8 contains reference: roundTo({fontVariables.fontSizeBaseline}*2.25 , 0)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontweight:fontWeight.Regular contains reference: {fontWeights.roboto-3}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontweight:fontWeight.Black contains reference: {fontWeights.roboto-0}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontweight:fontWeight.Bold contains reference: {fontWeights.roboto-1}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontweight:fontWeight.Medium contains reference: {fontWeights.roboto-2}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.tiny contains reference: {fontSize.0}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.small contains reference: {fontSize.1}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.md contains reference: {fontSize.2}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.default contains reference: {fontSize.3}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.lg contains reference: {fontSize.4}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.xl contains reference: {fontSize.5}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.xxl contains reference: {fontSize.6}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.3xl contains reference: {fontSize.7}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.464Z",
+      "type": "info",
+      "message": "Token fontsizes:fontSizes.4xl contains reference: {fontSize.8}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Primary.300 contains reference: {primary.0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Primary.400 contains reference: {primary.0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Primary.600 contains reference: {primary.0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Primary.OnPrimary contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Primary.OnPrimary-Alt contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.300 contains reference: {secondary.0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.400 contains reference: {secondary.0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.600 contains reference: {secondary.0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.1300 contains reference: {secondary.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.OnSecondary contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Secondary.OnSecondaryAlt contains reference: {secondary.0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Surface.100 contains reference: {surface.0100}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Surface.200 contains reference: {surface.0200}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Surface.300 contains reference: {surface.0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Casino.background one contains reference: {Color Ramp.Casino.Casino 0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Casino.category one contains reference: linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0100}, 1) 0%, rgba({Color Ramp.Casino.Casino 0400}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Casino.category two contains reference: linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0200}, 1) 0%, rgba({Color Ramp.Casino.Casino 0500}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.Casino.category three contains reference: linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0300}, 1) 0%, rgba({Color Ramp.Casino.Casino 0600}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.selected.content contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.selected.surface.surface contains reference: {primary.0600}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.selected.surface.border contains reference: {primary.0300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.default.content-odds contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.default.surface.surface contains reference: {primary.0400}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.default.surface.gradient.odd_down contains reference: linear-gradient(180deg, rgba({error.0500}, 0) 80%, rgba({error.0500}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button-odds.default.surface.gradient.odd_up contains reference: linear-gradient(180deg, rgba({Color Ramp.Neon Green.0700}, 0) 80%, rgba({Color Ramp.Neon Green.0700}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.accent.surface.surface label contains reference: {accent.1000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.accent.surface.best price contains reference: {Color Ramp.Neon Green.0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.accent.surface.gradient.best price_odds contains reference: linear-gradient(0deg, rgba({Color Ramp.Neon Green.0700}, 0) 80%, rgba({Color Ramp.Neon Green.0700}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.accent.surface.gradient.best price_select contains reference: linear-gradient(90deg, rgba({Color Ramp.Neon Green.0700}, 0) 100%, rgba({Color Ramp.Neon Green.0700}, 1) 0%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.text-betslip contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.betslip-selection-text contains reference: {accent.0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.text-active-toogle contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.number_badge contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.text-quicklink contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.icon_switch contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.text-muted-foreground contains reference: {content.0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.content.icon-muted-foreground contains reference: {content.0700}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.check.status_active contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.check.status-secondary contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.check.status-disabled contains reference: {content.0800}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.content.text contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.content.text-CTA contains reference: {content.0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.content.text-auto-input contains reference: {content.0000}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.content.text-CTA-ALT contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.content.text-secondary contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.button.icon. filled contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.betslip quote.content.text_quote_down contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.betslip quote.content.text_quote_up contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.betslip quote.content.text_quote_won contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.betslip quote.content.text_quote_lost contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.betslip quote.icon. filled contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.bank category chip.status_selected contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.bank category chip.status_hover contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.banking option tab.status_selected contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.banking option tab.status_hover contains reference: {content.1300}"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.465Z",
+      "type": "info",
+      "message": "Token dnu-brand:DNU brand.header.gradient contains reference: linear-gradient(180deg, rgba({surface.0000}, 0) 80%, rgba({surface.0000}, 1) 100%)"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.466Z",
+      "type": "error",
+      "message": "No valid token files found"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.466Z",
+      "type": "error",
+      "message": "Token Syntax: FAILED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.466Z",
+      "type": "info",
+      "message": "🔍 Verifying token reference resolution..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "Unresolved references found:"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "  dnu-brand:DNU brand.button-odds.default.surface.gradient.odd_up -> Color Ramp.Neon Green.0700"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "  dnu-brand:DNU brand.accent.surface.best price -> Color Ramp.Neon Green.0700"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "  dnu-brand:DNU brand.accent.surface.gradient.best price_odds -> Color Ramp.Neon Green.0700"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "  dnu-brand:DNU brand.accent.surface.gradient.best price_select -> Color Ramp.Neon Green.0700"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "error",
+      "message": "Reference Resolution: FAILED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.473Z",
+      "type": "info",
+      "message": "🔍 Verifying import/export roundtrip compatibility..."
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.474Z",
+      "type": "success",
+      "message": "Import/export roundtrip validation passed"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.474Z",
+      "type": "success",
+      "message": "Import/Export Roundtrip: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:35:35.474Z",
+      "type": "info",
+      "message": "📊 Generating Token Studio compatibility report..."
+    }
+  ],
+  "recommendations": [
+    "❌ Token structure has compatibility issues",
+    "🔧 Fix the reported errors before using with Token Studio",
+    "⚠️ Address warnings to improve Token Studio experience"
+  ]
+}

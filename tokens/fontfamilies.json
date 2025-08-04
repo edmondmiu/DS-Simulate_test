@@ -1,0 +1,24 @@
+{
+  "fontFamilies": {
+    "Roboto": {
+      "$type": "fontFamily",
+      "$value": "Roboto"
+    },
+    "NotoSerif": {
+      "$type": "fontFamily",
+      "$value": "Noto Serif"
+    },
+    "Orbitron": {
+      "$type": "fontFamily",
+      "$value": "Orbitron"
+    },
+    "roboto": {
+      "$type": "fontFamily",
+      "$value": "Roboto"
+    },
+    "Lato": {
+      "$type": "fontFamily",
+      "$value": "Lato"
+    }
+  }
+}

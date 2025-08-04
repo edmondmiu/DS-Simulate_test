@@ -1,0 +1,24 @@
+{
+  "Font Family": {
+    "Roboto": {
+      "$type": "fontFamily",
+      "$value": "Roboto",
+      "$description": "Primary font family"
+    },
+    "Roboto Condensed": {
+      "$type": "fontFamily",
+      "$value": "Roboto Condensed",
+      "$description": "Condensed font family"
+    },
+    "Roboto Slab": {
+      "$type": "fontFamily",
+      "$value": "Roboto Slab",
+      "$description": "Slab serif font family"
+    },
+    "Fieldwork": {
+      "$type": "fontFamily",
+      "$value": "Fieldwork",
+      "$description": "Brand font family"
+    }
+  }
+}

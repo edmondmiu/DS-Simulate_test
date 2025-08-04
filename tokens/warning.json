@@ -1,0 +1,74 @@
+{
+  "warning": {
+    "1000": {
+      "$type": "color",
+      "$value": "#FCE6D8",
+      "$description": "Orange / Orange 1000\n#FCE6D8\n11.96:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "#FDF1E9",
+      "$description": "Orange / Orange 1000\n#FDF1E9\n12.98:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "#FEF6F1",
+      "$description": "Orange / Orange 1100\n#FEF6F1\n13.48:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "#fffbf9",
+      "$description": "Orange / Orange 1300\n#FFFBF9\n14.00:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "#572706",
+      "$description": "Orange / Orange 000\n#572706\n1.16:1\n(N/A) Large text\n(N/A) Normal text"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "#5c2907",
+      "$description": "Orange / Orange 100\n#5C2907\n1.22:1\n(N/A) Large text\n(N/A) Normal text"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "#723308",
+      "$description": "Orange / Orange 200\n#723308\n1.50:1\n(N/A) Large text\n(N/A) Normal text"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "#8e400a",
+      "$description": "Orange / Orange 300\n#8E400A\n1.98:1\n(N/A) Large text\n(N/A) Normal text"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "#ae4f0c",
+      "$description": "Orange / Orange 400\n#AE4F0C\n2.69:1\n(N/A) Large text\n(N/A) Normal text"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "#d15e0f",
+      "$description": "Orange / Orange 500\n#D15E0F\n3.65:1\n(AA) Large text\n(N/A) Normal text"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "#ef7520",
+      "$description": "Orange / Orange 600\n#EF7520\n4.96:1\n(AAA) Large text\n(AA) Normal text"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "#F5A56F",
+      "$description": "Orange / Orange 700\n#F5A56F\n7.20:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "#F7BD94",
+      "$description": "Orange / Orange 800\n#F7BD94\n8.68:1\n(AAA) Large text\n(AAA) Normal text"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "#FBDBC6",
+      "$description": "Orange / Orange 900\n#FBDBC6\n11.00:1\n(AAA) Large text\n(AAA) Normal text"
+    }
+  }
+}

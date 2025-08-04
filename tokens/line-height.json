@@ -1,0 +1,19 @@
+{
+  "Line Height": {
+    "tight": {
+      "$type": "lineHeight",
+      "$value": "1.2",
+      "$description": "Tight line height"
+    },
+    "normal": {
+      "$type": "lineHeight",
+      "$value": "1.5",
+      "$description": "Normal line height"
+    },
+    "loose": {
+      "$type": "lineHeight",
+      "$value": "1.75",
+      "$description": "Loose line height"
+    }
+  }
+}

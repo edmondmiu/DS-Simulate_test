@@ -1,0 +1,276 @@
+{
+  "DNU brand": {
+    "Primary": {
+      "300": {
+        "$type": "color",
+        "$value": "{primary.0300}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{primary.0400}"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "{primary.0600}"
+      },
+      "OnPrimary": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "OnPrimary-Alt": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      }
+    },
+    "Secondary": {
+      "300": {
+        "$type": "color",
+        "$value": "{secondary.0300}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{secondary.0400}"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "{secondary.0600}"
+      },
+      "1300": {
+        "$type": "color",
+        "$value": "{secondary.1300}"
+      },
+      "OnSecondary": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "OnSecondaryAlt": {
+        "$type": "color",
+        "$value": "{secondary.0700}"
+      }
+    },
+    "Surface": {
+      "100": {
+        "$type": "color",
+        "$value": "{surface.0100}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{surface.0200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{surface.0300}"
+      }
+    },
+    "Casino": {
+      "background one": {
+        "$type": "color",
+        "$value": "{Color Ramp.Casino.Casino 0000}"
+      },
+      "category one": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0100}, 1) 0%, rgba({Color Ramp.Casino.Casino 0400}, 1) 100%)"
+      },
+      "category two": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0200}, 1) 0%, rgba({Color Ramp.Casino.Casino 0500}, 1) 100%)"
+      },
+      "category three": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, rgba({Color Ramp.Casino.Casino 0300}, 1) 0%, rgba({Color Ramp.Casino.Casino 0600}, 1) 100%)"
+      }
+    },
+    "button-odds": {
+      "selected": {
+        "content": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "surface": {
+          "surface": {
+            "$type": "color",
+            "$value": "{primary.0600}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{primary.0300}"
+          }
+        }
+      },
+      "default": {
+        "content-odds": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "surface": {
+          "surface": {
+            "$type": "color",
+            "$value": "{primary.0400}"
+          },
+          "gradient": {
+            "odd_down": {
+              "$type": "color",
+              "$value": "linear-gradient(180deg, rgba({error.0500}, 0) 80%, rgba({error.0500}, 1) 100%)"
+            },
+            "odd_up": {
+              "$type": "color",
+              "$value": "linear-gradient(180deg, rgba({Color Ramp.Neon Green.0700}, 0) 80%, rgba({Color Ramp.Neon Green.0700}, 1) 100%)"
+            }
+          }
+        }
+      }
+    },
+    "accent": {
+      "surface": {
+        "surface label": {
+          "$type": "color",
+          "$value": "{accent.1000}"
+        },
+        "best price": {
+          "$type": "color",
+          "$value": "{Color Ramp.Neon Green.0700}"
+        },
+        "gradient": {
+          "best price_odds": {
+            "$type": "color",
+            "$value": "linear-gradient(0deg, rgba({Color Ramp.Neon Green.0700}, 0) 80%, rgba({Color Ramp.Neon Green.0700}, 1) 100%)"
+          },
+          "best price_select": {
+            "$type": "color",
+            "$value": "linear-gradient(90deg, rgba({Color Ramp.Neon Green.0700}, 0) 100%, rgba({Color Ramp.Neon Green.0700}, 1) 0%)"
+          }
+        }
+      }
+    },
+    "content": {
+      "text-betslip": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "betslip-selection-text": {
+        "$type": "color",
+        "$value": "{accent.0800}"
+      },
+      "text-active-toogle": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "number_badge": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "text-quicklink": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "icon_switch": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "text-muted-foreground": {
+        "$type": "color",
+        "$value": "{content.0700}"
+      },
+      "icon-muted-foreground": {
+        "$type": "color",
+        "$value": "{content.0700}"
+      }
+    },
+    "check": {
+      "status_active": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "status-secondary": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "status-disabled": {
+        "$type": "color",
+        "$value": "{content.0800}"
+      }
+    },
+    "button": {
+      "content": {
+        "text": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "text-CTA": {
+          "$type": "color",
+          "$value": "{content.0000}"
+        },
+        "text-auto-input": {
+          "$type": "color",
+          "$value": "{content.0000}"
+        },
+        "text-CTA-ALT": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "text-secondary": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        }
+      },
+      "icon": {
+        " filled": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        }
+      }
+    },
+    "betslip quote": {
+      "content": {
+        "text_quote_down": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "text_quote_up": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "text_quote_won": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        },
+        "text_quote_lost": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        }
+      },
+      "icon": {
+        " filled": {
+          "$type": "color",
+          "$value": "{content.1300}"
+        }
+      }
+    },
+    "bank category chip": {
+      "status_selected": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "status_hover": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      }
+    },
+    "banking option tab": {
+      "status_selected": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      },
+      "status_hover": {
+        "$type": "color",
+        "$value": "{content.1300}"
+      }
+    },
+    "header": {
+      "gradient": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, rgba({surface.0000}, 0) 80%, rgba({surface.0000}, 1) 100%)"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fontWeights": {
+    "roboto-0": {
+      "$type": "fontWeight",
+      "$value": "Black"
+    },
+    "roboto-1": {
+      "$type": "fontWeight",
+      "$value": "Bold"
+    },
+    "roboto-2": {
+      "$type": "fontWeight",
+      "$value": "Medium"
+    },
+    "roboto-3": {
+      "$type": "fontWeight",
+      "$value": "Regular"
+    }
+  }
+}

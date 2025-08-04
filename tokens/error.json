@@ -1,0 +1,60 @@
+{
+  "error": {
+    "1000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 1000}"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 1100}"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 1200}"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 1300}"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0000}"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0100}"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0200}"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0300}"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0400}"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0500}"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0600}"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0700}"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0800}"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "{Color Ramp.Red.Red 0900}"
+    }
+  }
+}

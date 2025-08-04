@@ -1,0 +1,12 @@
+{
+  "textCase": {
+    "none": {
+      "$type": "textCase",
+      "$value": "none"
+    },
+    "uppercase": {
+      "$type": "textCase",
+      "$value": "uppercase"
+    }
+  }
+}

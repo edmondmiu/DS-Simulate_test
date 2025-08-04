@@ -1,0 +1,248 @@
+{
+  "appBackground": {
+    "appBackground": {
+      "$type": "color",
+      "$value": "{Color Ramp.Black.Black 000}",
+      "$description": "App Background"
+    },
+    "gradient": {
+      "000": {
+        "$type": "color",
+        "$value": "linear-gradient(90deg, rgba({appBackground.appBackground}, 0) 80%, rgba({appBackground.appBackground}, 1) 100%)",
+        "$description": "App Background gradient"
+      }
+    }
+  },
+  "surface": {
+    "1000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    }
+  },
+  "content": {
+    "1000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    }
+  },
+  "primary": {
+    "1000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 1000}"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 1100}"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 1200}"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 1300}"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0000}"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0100}"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0200}"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0300}"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0400}"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0500}"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0600}"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0700}"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0800}"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "{Color Ramp.Amber.Amber 0900}"
+    }
+  },
+  "secondary": {
+    "1000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1000}"
+    },
+    "1100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1100}"
+    },
+    "1200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1200}"
+    },
+    "1300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 1300}"
+    },
+    "0000": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0000}"
+    },
+    "0100": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0100}"
+    },
+    "0200": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0200}"
+    },
+    "0300": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0300}"
+    },
+    "0400": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0400}"
+    },
+    "0500": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0500}"
+    },
+    "0600": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0600}"
+    },
+    "0700": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0700}"
+    },
+    "0800": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0800}"
+    },
+    "0900": {
+      "$type": "color",
+      "$value": "{Color Ramp.Cool Neutral.Cool Neutral 0900}"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "fontVariables": {
+    "fontSizeBaseline": {
+      "$type": "fontSize",
+      "$value": "16"
+    }
+  }
+}

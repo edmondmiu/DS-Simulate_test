@@ -1,0 +1,20 @@
+{
+  "fontWeight": {
+    "Regular": {
+      "$type": "fontWeight",
+      "$value": "{fontWeights.roboto-3}"
+    },
+    "Black": {
+      "$type": "fontWeight",
+      "$value": "{fontWeights.roboto-0}"
+    },
+    "Bold": {
+      "$type": "fontWeight",
+      "$value": "{fontWeights.roboto-1}"
+    },
+    "Medium": {
+      "$type": "fontWeight",
+      "$value": "{fontWeights.roboto-2}"
+    }
+  }
+}

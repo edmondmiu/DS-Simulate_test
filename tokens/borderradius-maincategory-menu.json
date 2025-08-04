@@ -1,0 +1,8 @@
+{
+  "borderRadius-MainCategory-Menu": {
+    "lg": {
+      "$type": "borderRadius",
+      "$value": "{borderRadius.lg}"
+    }
+  }
+}

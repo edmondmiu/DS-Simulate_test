@@ -1,0 +1,337 @@
+{
+  "timestamp": "2025-08-04T10:26:22.236Z",
+  "testSuite": "Token Studio Import/Export Compatibility",
+  "githubUrl": "https://raw.githubusercontent.com/edmondmiu/DS-Simulate_test/main/tokensource.json",
+  "summary": {
+    "passed": 10,
+    "failed": 8,
+    "warnings": 0,
+    "totalTests": 18
+  },
+  "compatibility": {
+    "githubUrlAccess": false,
+    "tokenStudioNativeFormat": false,
+    "designerWorkflow": false,
+    "roundtripCompatibility": false,
+    "actualTokenStudioCompatibility": false
+  },
+  "details": [
+    {
+      "timestamp": "2025-08-04T10:26:21.880Z",
+      "type": "info",
+      "message": "🔍 Testing GitHub URL accessibility for Token Studio import..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.129Z",
+      "type": "error",
+      "message": "GitHub URL returned status 404"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.130Z",
+      "type": "error",
+      "message": "GitHub URL Access: FAILED"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.130Z",
+      "type": "info",
+      "message": "🔍 Testing Token Studio native format compliance..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.136Z",
+      "type": "success",
+      "message": "Token set order includes core sets: core, global, simulate"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.136Z",
+      "type": "success",
+      "message": "Found 2 valid themes"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.136Z",
+      "type": "success",
+      "message": "Token Studio native format is compatible with reference structure"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.136Z",
+      "type": "success",
+      "message": "Token Studio Native Format: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.137Z",
+      "type": "info",
+      "message": "🔍 Simulating complete designer workflow..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.137Z",
+      "type": "info",
+      "message": "🔍 Testing GitHub URL accessibility for Token Studio import..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.170Z",
+      "type": "error",
+      "message": "GitHub URL returned status 404"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.170Z",
+      "type": "error",
+      "message": "Designer workflow failed - GitHub URL not accessible"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.170Z",
+      "type": "error",
+      "message": "Designer Workflow Simulation: FAILED"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.170Z",
+      "type": "info",
+      "message": "🔍 Testing roundtrip compatibility (import → export → import)..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.175Z",
+      "type": "info",
+      "message": "Token Studio import simulation completed"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.175Z",
+      "type": "info",
+      "message": "Token Studio export simulation completed"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.179Z",
+      "type": "success",
+      "message": "Structure comparison passed - 637 tokens maintained"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.179Z",
+      "type": "success",
+      "message": "Roundtrip compatibility test passed - data integrity maintained"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.180Z",
+      "type": "success",
+      "message": "Roundtrip Compatibility: PASSED"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.180Z",
+      "type": "info",
+      "message": "🔍 Testing actual Token Studio plugin compatibility..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.185Z",
+      "type": "success",
+      "message": "Current token structure is valid"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.185Z",
+      "type": "info",
+      "message": "🔍 Testing GitHub URL accessibility for Token Studio import..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.214Z",
+      "type": "error",
+      "message": "GitHub URL returned status 404"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.216Z",
+      "type": "info",
+      "message": "core.json: 331 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.217Z",
+      "type": "info",
+      "message": "global.json: 35 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.217Z",
+      "type": "info",
+      "message": "components.json: 5 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.218Z",
+      "type": "info",
+      "message": "simulate.json: 58 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.219Z",
+      "type": "info",
+      "message": "font-family.json: 4 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.220Z",
+      "type": "info",
+      "message": "font-size.json: 9 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.220Z",
+      "type": "info",
+      "message": "font-weight.json: 5 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.221Z",
+      "type": "info",
+      "message": "line-height.json: 3 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.221Z",
+      "type": "info",
+      "message": "borderradius-maincategory-menu.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.222Z",
+      "type": "info",
+      "message": "error.json: 14 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.223Z",
+      "type": "info",
+      "message": "success.json: 14 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.224Z",
+      "type": "info",
+      "message": "info.json: 14 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.224Z",
+      "type": "info",
+      "message": "accent.json: 14 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.225Z",
+      "type": "info",
+      "message": "warning.json: 14 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.225Z",
+      "type": "info",
+      "message": "fontweights.json: 4 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.226Z",
+      "type": "info",
+      "message": "fontsize.json: 9 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.227Z",
+      "type": "info",
+      "message": "lineheights.json: 9 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.227Z",
+      "type": "info",
+      "message": "letterspacing.json: 6 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.228Z",
+      "type": "info",
+      "message": "paragraphspacing.json: 3 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.228Z",
+      "type": "info",
+      "message": "fontweight.json: 4 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.229Z",
+      "type": "info",
+      "message": "fontsizes.json: 9 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.230Z",
+      "type": "info",
+      "message": "textcase.json: 2 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.230Z",
+      "type": "info",
+      "message": "textdecoration.json: 3 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.230Z",
+      "type": "info",
+      "message": "fontfamilies.json: 5 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.231Z",
+      "type": "info",
+      "message": "fontvariables.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.231Z",
+      "type": "info",
+      "message": "paragraphindent.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.232Z",
+      "type": "info",
+      "message": "dnu-brand.json: 56 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.233Z",
+      "type": "info",
+      "message": "default.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.233Z",
+      "type": "info",
+      "message": "bottom-nav.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.233Z",
+      "type": "info",
+      "message": "card.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.234Z",
+      "type": "info",
+      "message": "section-tab.json: 1 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.234Z",
+      "type": "success",
+      "message": "Modular structure valid: 31 files, 637 tokens"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.234Z",
+      "type": "info",
+      "message": "🔍 Testing theme switching functionality..."
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.235Z",
+      "type": "info",
+      "message": "Theme \"Base\" configuration is valid"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.235Z",
+      "type": "info",
+      "message": "Theme \"Simulate\" configuration is valid"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.235Z",
+      "type": "success",
+      "message": "All 2 themes are valid for switching"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.235Z",
+      "type": "error",
+      "message": "Token Studio compatibility issues detected"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.235Z",
+      "type": "error",
+      "message": "Actual Token Studio Compatibility: FAILED"
+    },
+    {
+      "timestamp": "2025-08-04T10:26:22.236Z",
+      "type": "info",
+      "message": "📊 Generating comprehensive Token Studio compatibility report..."
+    }
+  ],
+  "recommendations": [
+    "❌ Token Studio compatibility issues detected",
+    "🔧 Fix the reported errors before using with Token Studio",
+    "📋 Review the detailed test results for specific issues",
+    "🌐 Ensure GitHub repository is public and tokensource.json is accessible",
+    "🎨 Verify theme configurations and token set references"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "fontSize": {
+    "0": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*0.625,0)"
+    },
+    "1": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*0.75,0)"
+    },
+    "2": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*0.875,0)"
+    },
+    "3": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*1,0)"
+    },
+    "4": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*1.125,0)"
+    },
+    "5": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*1.4 , 0)"
+    },
+    "6": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*1.5 , 0)"
+    },
+    "7": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*2.125 , 0)"
+    },
+    "8": {
+      "$type": "fontSize",
+      "$value": "roundTo({fontVariables.fontSizeBaseline}*2.25 , 0)"
+    }
+  }
+}

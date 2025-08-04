@@ -1,0 +1,29 @@
+{
+  "Font Weight": {
+    "light": {
+      "$type": "fontWeight",
+      "$value": "300",
+      "$description": "Light font weight"
+    },
+    "regular": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "$description": "Regular font weight"
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "$description": "Medium font weight"
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": "700",
+      "$description": "Bold font weight"
+    },
+    "black": {
+      "$type": "fontWeight",
+      "$value": "900",
+      "$description": "Black font weight"
+    }
+  }
+}
